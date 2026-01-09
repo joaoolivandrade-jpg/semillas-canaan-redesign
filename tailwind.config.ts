@@ -47,16 +47,22 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        // Canaan brand colors
+        "canaan-green": {
+          dark: "hsl(var(--canaan-green-dark))",
+          DEFAULT: "hsl(var(--canaan-green))",
+          light: "hsl(var(--canaan-green-light))",
+          pale: "hsl(var(--canaan-green-pale))",
         },
+        "canaan-red": {
+          DEFAULT: "hsl(var(--canaan-red))",
+          dark: "hsl(var(--canaan-red-dark))",
+        },
+        "canaan-cream": "hsl(var(--canaan-cream))",
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        heading: ['Poppins', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
